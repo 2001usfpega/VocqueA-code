@@ -1,8 +1,8 @@
 package com.revature.bean;
+import java.io.Serializable;
 
 
-
-public class Person {
+public class Person implements Serializable{
 	/*Code Block - defined by {}
 	 * static code block - runs once when the class is used by compiler
 	 * 

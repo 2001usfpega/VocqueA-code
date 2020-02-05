@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+/* THIS IS A COMMENT IN A CSS FILE!
+barnacles
+*/
+
+/* THIS IS THE CSS STRUCTURE
+	selector {
+			property-1:     value-1;
+			property-2		value-2
+			property-n		value-n
+			
+	}
+	
+	if "#" precedes
+	
+	*/
+/*class example*/
+.taco12{
+		text-align: center;
+		color : blueviolet;
+	}
+/*tag example*/
+	h2{
+		text-align right;
+	}
+
+#burrito13{
+	color: pink;
+}
+
+/* MORE COMPLICATED EXAMPLE*/
+
+/* this specific example selects tags of type "wedabess" SPECIFICALLY AND ONLY if it is a child of another
+class of type "another1"*/
+.anothaone > .wedabess {
+	color : orange;
+}
+4/*this specific example selects ANY child of a div tag*/
+div > * {
+	
+}
+/*this specific example selects all h1 tags that have the class name "myClass"*/
+h1.myClass{
+	
+}
+
+/* BOX MODEL DEMO */
+.spidey{
+	border-style : solid;
+	border-width: 3px;
+	border-color : chocolate;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+

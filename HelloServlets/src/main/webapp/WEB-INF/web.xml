@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>HelloServlets</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <!-- DIRECT SERVLET CONFIGURATIONS -->
+<!--   	<servlet>
+  		<servlet-name>DirectServletObj</servlet-name>
+  		<servlet-class>com.example.directservlet.DirectServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  	<servlet-name>DirectServletObj</servlet-name>
+  	<url-pattern>/dirserv</url-pattern>
+  	</servlet-mapping>
+  	
+  	INDIRECT SERVLET CONFIGURATIONS
+  	<servlet>
+  		<servlet-name>IndirectServletObj</servlet-name>
+  		<servlet-class>com.example.indirectservlet.IndirectServlet</servlet-class>
+  		
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>IndirectServletObj</servlet-name>
+  		<url-pattern>/indirserv</url-pattern>
+  	</servlet-mapping>
+  	
+  	Session Servlet Configurations 
+  	<servlet>
+  		<servlet-name>SessionServletObj</servlet-name>
+  		<servlet-class>com.example.sessionservlet.SessionServlet</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>SessionServletObj</servlet-name>
+  		<url-pattern>sesserv</url-pattern>
+  	</servlet-mapping>
+  	
+  		<servlet>
+  		<servlet-name>HelperSessionServletObj</servlet-name>
+  		<servlet-class>com.example.sessionservlet.HelperSessionServlet</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>HelperSessionServletObj</servlet-name>
+  		<url-pattern>helpsesserv</url-pattern>
+  	</servlet-mapping>
+  	 -->
+  	<servlet>
+  		<servlet-name>IndirectSecondComing</servlet-name>
+  		<servlet-class>com.example.indirectservlet.indirect2</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>IndirectSecondComing</servlet-name>
+  		<url-pattern>/inserv</url-pattern>
+  	</servlet-mapping>
+</web-app>

@@ -1,0 +1,71 @@
+/*
+THIS IS COMMENT IN A CSS FILE!
+barnacles
+*/
+/*
+	THIS IS THE CSS STRUCTURE
+		selector{
+			property-1: 	value-1;
+			property-2:		value-2;
+			...
+			property-n: 	value-n;
+		}
+		
+	Selector types:
+		"#": precedes the selector then the selector is targeting an id
+		".": precedes the selector then the selector is targeting a class
+*/
+
+.body {
+  
+  background-image: url('https://wallpaperaccess.com/full/157010.jpg');
+  background-repeat: no-repeat;
+  background-size: 2000px 900px;
+}
+
+h2 {
+	text-align: right;
+}
+/*		class example		*/
+.taco12 {
+	text-align: center;
+	color: blueviolet;
+}
+/* 		id example 		*/
+#burrito13{
+	color: pink;
+}
+/*MORE COMPLICATED EXAMPLE*/
+/*this specific example selects tags of type "wedabess"
+SPECIALLY AND ONLY if it is a child of another class of type "anotha1" */
+.anotha1 > .wedabess{
+	color: orange;
+}
+/*this specific example selects any child of a div tag*/
+div > *{
+	
+	
+}
+/*this specific example selects all h1 tags that have the xlass name "myClass"*/
+h1.myClass{
+	
+	
+}
+/*BOX MODEL DEMO*/
+.spidey{
+	border-style: solid;
+	border-width: 3px;
+	border-color: chocolate;
+	/*adding more space for padding*/
+	padding: 10px;
+	
+	margin: 50px;
+	
+	
+}
+.spacing{
+	border-width: 3px;
+	padding: 10px;
+	
+	margin: 50px;
+}

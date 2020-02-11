@@ -1,13 +1,14 @@
 package com.revature;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInfo;
+
+import com.example.whatever.AccountTab;
 
 class StringTest {
 	
@@ -24,11 +25,8 @@ class StringTest {
 
 	@Test
 	void meh() {
-		int actualLength = "ABCD".length();
-		int expectedLength = 4;
-		// assertEquals expected value, actual value;
-		assertEquals(expectedLength, actualLength);
-		
+		AccountTab isa = new AccountTab();
+		assertTrue(isa.talktome(true));
 	}
 
 }

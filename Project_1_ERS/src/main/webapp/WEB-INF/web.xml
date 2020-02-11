@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>Project_1_ERS</display-name>
+  <welcome-file-list>
+    <welcome-file>resources/html/Index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>MasterMaster</display-name>
+    <servlet-name>MasterMaster</servlet-name>
+    <servlet-class>com.revature.servlets.MasterMaster</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MasterMaster</servlet-name>
+    <url-pattern>/MasterMaster</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MasterServlet</display-name>
+    <servlet-name>MasterServlet</servlet-name>
+    <servlet-class>com.revtaure.servlets.MasterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MasterServlet</servlet-name>
+    <url-pattern>/MasterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SeeEmployeeTable</display-name>
+    <servlet-name>SeeEmployeeTable</servlet-name>
+    <servlet-class>com.revtaure.servlets.SeeEmployeeTable</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SeeEmployeeTable</servlet-name>
+    <url-pattern>/SeeEmployeeTable</url-pattern>
+  </servlet-mapping>
+  <!-- <servlet>
+    <description></description>
+    <display-name>Login_Controller</display-name>
+    <servlet-name>Login_Controller</servlet-name>
+    <servlet-class>com.revtaure.servlets.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login_Controller</servlet-name>
+    <url-pattern>/Login_Controller</url-pattern>
+  </servlet-mapping> -->
+  <servlet>
+    <description></description>
+    <display-name>GetTicketController</display-name>
+    <servlet-name>GetTicketController</servlet-name>
+    <servlet-class>com.revtaure.servlets.GetTicketController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetTicketController</servlet-name>
+    <url-pattern>/GetTicketController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RequestHelper</display-name>
+    <servlet-name>RequestHelper</servlet-name>
+    <servlet-class>com.revtaure.servlets.RequestHelper</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestHelper</servlet-name>
+    <url-pattern>/RequestHelper</url-pattern>
+  </servlet-mapping>
+</web-app>
